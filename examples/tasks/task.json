@@ -7,18 +7,14 @@
     "workflow": {
         "collect": {
             "metrics": {
-                "/intel/exec/metric0": {},
-                "/intel/exec/metric1": {},
-                "/intel/exec/metric2": {},
-                "/intel/exec/metric3": {},
-                "/intel/exec/metric4": {}
+                "/intel/exec/open_files": {}
            },
             "config": {
             },
             "process": null,
             "publish": [
                 {
-                    "plugin_name": "mock-file",
+                    "plugin_name": "file",
                     "config": {
                         "file": "/tmp/published_exec"
                     }

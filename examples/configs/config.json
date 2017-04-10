@@ -1,10 +1,10 @@
 {
     "control": {
-		"plugins": {
+	"plugins": {
         "collector": {
             "exec": {
                 "all": {
-                    "setfile": "setfile.json",
+                    "setfile": "/home/user/Projects/src/github.com/intelsdi-x/snap-plugin-collector-exec/examples/setfiles/setfile.json",
                     "execution_timeout" : 10
                 }
             }
